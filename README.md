@@ -8,7 +8,7 @@
   
 - [preventDevTools] This option enables blocking of DevTools-related shortcuts (e.g., F12, Ctrl+U, etc.). When set to true, it prevents users from opening DevTools through common keyboard shortcuts or right-click menus.
   
-- [checkBrowser] When this option is enabled (set to true), the script will check if the browser is supported. It only supports Chrome, Safari, and Cốc Cốc browsers. If the user is using any other browser (e.g., Cyberfox or other outdated browsers), the tool will show a message that the browser is not supported and might replace the body content with a "BROWSER NOT SUPPORTED" message.
+- [checkBrowser] When this option is enabled (set to true), the script will check if the browser is supported. It only supports Chrome, Safari, and Cốc Cốc browsers. If the user is using any other browser (e.g., or other outdated browsers), the tool will show a message that the browser is not supported and might replace the body content with a "BROWSER NOT SUPPORTED" message.
   
 - [enableDebugger] This enables the use of the debugger tool. If set to true, the script will use the debugger statement to detect if DevTools is open. If the debugger is open, the page will often slow down, and this can be used as an indicator of DevTools activity.
   
